@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topHeaderDiv{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    padding: 12px 0px 12px 0px;
+    border-bottom: 1px solid #E6E6E6;
+}
+.topHeaderInnerDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+.logo{
+    width: 15px;
+    height: 18px;
+}
+.greyText{
+    color: #666;
+    font-size: 12px
+}
+.mapDiv, .UsdDiv, .signDiv{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.engDiv{
+    display: flex;
+    gap: 8px;
+}
+.otherStuffDiv{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.middleHeaderDivWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.middleHeaderDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.searchBarDiv, .ecobazarLogoDiv, .shoppingCartDiv{
+    display: flex;
+    align-items: center;
+}
+.searchFrame{
+    display: flex;
+    width: 400px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid var(--Gray-Scale-Gray-100, #E6E6E6);
+    gap: 8px;
+    padding: 12px 18px;
+}
+.greyBiigerText{
+    font-size: 15px;
+    color: #808080;
+}
+.greenButton{
+    padding: 14px 24px;
+    border-radius: 0px 6px 6px 0px;
+    border: none;
+    color: #FFF;
+    background: var(--Branding-Success, #00B207);
+}
+.heartLogo{
+    width: 32px;
+    height: 32px;
+}
+.shopingCart{
+    width: 34px;
+    height: 34px;
+
+}
+.shoppingCartDivInneer{
+    display: flex;
+    gap: 12px;
+}
+.cartTextsDiv{
+    display: flex;
+    flex-direction: column;
+}
+.blackText{
+    color: #000;
+    font-size: 14px;
+}
+.diviider{
+    height: 24px;
+}
+.shoppingCartDiv{
+    gap: 16px;
+}
+.lastHeaderDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 24px;
+    max-width: 1200px;
+    padding-top: 16px;
+}
+.lastDivWrapper{
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    background-color: #333;
+    justify-content: center;
+}
+.whitetext{
+    font-size: 14px;
+    color: #FFF;
+}
+.navigation{
+    display: flex;
+    gap: 32px;
+}
+.arrow{
+    width: 9px;
+    height: 4px;
+}
+.navigationDiv{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.phoneDiv{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.phone{
+    width: 28px;
+    height: 28px;
+}
+
+.firstContainerWrapper{
+    display: flex;
+    margin-top: 24px;
+    justify-content: center;
+    width: 100%;
+}
+.firstContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    max-width: 1320px;
+}
+.firstRowDiv{
+    display: flex;
+    gap: 24px;
+}
+.mainImgDiv{
+
+}
+.twoImgDiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 24px;
+}
+.secondLittleImageTextDiv{
+    background-image: url("../images/secondLittleImg.svg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.littleWhiteText, .bigWhiteText{
+    color: #FFF;
+}
