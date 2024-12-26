@@ -25,7 +25,7 @@
     color: #666;
     font-size: 12px
 }
-.mapDiv, .UsdDiv, .signDiv{
+.mapDiv, .UsdDiv, .signDiv, .engDiv{
     display: flex;
     gap: 12px;
     align-items: center;
@@ -172,12 +172,114 @@
     width: 100%;
     gap: 24px;
 }
+
+.firstLittleImgDiv{
+    background-image: url("../images/firstLittleImg.svg");
+    padding: 32px 0px 0px 32px;
+}
+
+.secondLittleImageTextDiv, .firstLittleImgDiv{
+    display: flex;
+    width: 423px;
+    height: 288px;
+    flex-direction: column;
+}
+
 .secondLittleImageTextDiv{
     background-image: url("../images/secondLittleImg.svg");
-    display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .littleWhiteText, .bigWhiteText{
     color: #FFF;
+}
+.littleWhiteText{
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+.bigWhiteText{
+    margin-bottom: 32px;
+    font-size: 32px;
+    font-weight: bold;
+    width: 280px;
+    text-align: center;
+}
+.shopNwoDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.greenText{
+    color: #00B207;
+    font-size: 16px;
+}
+.summerSaleText{
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+.sale{
+    color: #1A1A1A;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+a{
+    text-decoration-line: none;
+}
+.fruitGreyText{
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+
+.secondRowDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+    gap: 8px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    background: var(--Gray-Scale-White, #FFF);
+    box-shadow: 0px 8px 40px 0px rgba(0, 38, 3, 0.08);
+}
+.shippingDiv, .supportDiv,
+.paymentDiv, .moneyBackDiv{
+    display: flex;
+    align-items: center;
+
+}
+.greenLogoParag{
+    color: #999;
+    font-size: 14px;
+}
+.greenLogoHeader{
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 600;
+}
+.greenLogoParagDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 15px;
+}
+.categories{
+    color: #1A1A1A;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.categoryCardMainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    gap: 30px;
+}
+.categoryCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
