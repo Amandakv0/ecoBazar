@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+.wholeDocumentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 .topHeaderDiv{
     display: flex;
     margin-bottom: 30px;
     justify-content: center;
+    width: 100%;
     padding: 12px 0px 12px 0px;
     border-bottom: 1px solid #E6E6E6;
 }
@@ -15,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1320px;
 }
 .logo{
     width: 15px;
@@ -48,7 +55,8 @@
 .middleHeaderDiv{
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    max-width: 1320px;
+    justify-content: space-between;
     align-items: center;
 }
 .searchBarDiv, .ecobazarLogoDiv, .shoppingCartDiv{
@@ -108,7 +116,7 @@
     justify-content: space-between;
     width: 100%;
     margin-bottom: 24px;
-    max-width: 1200px;
+    max-width: 1320px;
     padding-top: 16px;
 }
 .lastDivWrapper{
@@ -121,6 +129,7 @@
 .whitetext{
     font-size: 14px;
     color: #FFF;
+    font-weight: 600;
 }
 .navigation{
     display: flex;
@@ -276,10 +285,396 @@ a{
     display: flex;
     flex-wrap: wrap;
     margin-top: 32px;
-    gap: 30px;
+    gap: 20px;
 }
-.categoryCard{
+.categoryCard, .categoryCardSelected{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 16px;
+    padding: 16px 0px 24px 0px;
+}
+.categoryCard{
+    width: 200px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+.popularCategoriesDiv, .popularProductsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1320px;
+    gap: 32px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.categoriesCaptionText{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+.categoryCardSelected{
+    width: 200px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+.categoriesCaptionTextGreen{
+    font-size: 18px;
+    font-weight: 500;
+    color: #2C742F;
+}
+.popularProductCardsMainFrame{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productsCardFrame{
+    width: 262px;
+    padding: 2px;
+    gap: 5px;
+    background-color: #FFF;
+    border: 1px solid #E6E6E6;
+}
+.productsCardFrameGreen{
+    width: 260px;
+    padding: 2px;
+    gap: 5px;
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+.greyTextCardGreen{
+    color: #2C742F;
+    font-size: 14px;
+    font-weight: 400;
+}
+.cardTextsDiv{
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.textsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.greyTextCard, .greySpan{
+    font-size: 14px;
+    color: #4D4D4D;
+    font-weight: 500;
+}
+.blackTextCard{
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 700;
+}
+.starsDiv{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.dealsDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+    gap: 24px;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+.firstDealsDiv, .secondDealsDiv, .thirdDealsDiv{
+    width: 424px;
+    height: 536px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 35px;
+}
+.firstDealsDiv{
+    background-image: url("../images/firstDealsImg.svg");
+}
+.whiteDealsTetx{
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.dealsName{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.delasTimeDiv{
+    display: flex;
+    gap: 8px;
+    width: 290px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.timeDiv{
+    display: flex;
+    width: 290px;
+    gap: 22px;
+    margin-bottom: 24px;
+}
+button:hover{
+    background-color: purple;
+}
+.productsCardFrame:focus{
+    background-color: purple;
+    border: 1px solid #2C742F;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+.shopNowGreenText{
+    font-size: 14px;
+    color: #00B207;
+    font-weight: 600;
+}
+.arroww{
+    width: 15px;
+    height: 13px;
+}
+
+button{
+    border: none;
+}
+
+a{
+    text-decoration-line: none;
+}
+.shopNowWhiteButton{
+    padding: 14px 32px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border-radius: 43px;
+    background: var #FFF;
+}
+.timeNames{
+    font-size: 12px;
+    width: 56px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.80);
+}
+.whiteTimeText{
+    color: #FFF;
+    font-size: 24px;
+    text-align: center;
+    width: 56px;
+}
+.twoDots{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 24px;
+}
+.middleWhiteText{
+    color: #FFF;
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-top: 13px;
+}
+.orangeSpan{
+    color: #FF8A00;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.secondDealsDiv{
+    background-image: url("../images/secondDealsImg.svg");
+}
+.thirdDealsDiv{
+    background-image: url("../images/thirdsDealsImggg.svg");
+}
+.delasMInBlackText{
+    color: #1A1A1A;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.dealsMainText{
+    font-size: 40px;
+    font-weight: 600;
+    color: #1A1A1A;
+    margin-bottom: 15px;
+}
+.midleText{
+    color: #1A1A1A;
+    font-size: 18px;
+}
+.middleTextDIv{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+.blackFrame{
+    padding: 6px 12px;
+    border-radius: 5px solid #1A1A1A;
+    background-color: #1A1A1A;
+}
+.yellowText{
+    color: #FCC900;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hotDeaslDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F7F7;
+    justify-content: center;
+    align-items: center;
+}
+.hotDeaslDiv{
+    margin-top: 60px;
+    width: 100%;
+}
+.hotDealsFram{
+    display: flex;
+    width: 100%;
+    margin-bottom: 33px;
+    max-width: 1320px;
+    justify-content: space-between;
+}
+.hotDeaslHeader{
+    color: #1A1A1A;
+    font-size: 32px;
+    font-weight: 600;
+}
+.viewAllFrame{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.greentextt{
+    font-size: 16px;
+    color: #00B207;
+}
+.miniArrow{
+    width: 15px;
+    height: 13px;
+}
+.leftSide{
+    display: flex;
+    width: 100%;
+    max-width: 525px;
+    flex-wrap: wrap;
+}
+.bigApplesImg{
+    width: 490px;
+    height: 330px;
+}
+.applesBigDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 0px 15px;
+    background-color: #FFF;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid #2C742F);
+    background-color: #FFF;
+    box-shadow: 0px 0px 12px 0px rgba(32, 181, 38, 0.32);
+}
+.appleCardDetails{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+.addToCartButton{
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    max-width: 371px;
+    justify-content: center;
+    border-radius: 43px;
+    padding: 14px 32px;
+    background-color: #00B207;
+}
+.appleDivTextsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 17px;
+}
+.greyTextCardGreenSecond{
+    font-size: 18px;
+    color: #2C742F;
+}
+.blackTextCardSecond{
+    font-size: 24px;
+    color: #1A1A1A;
+}
+.stars{
+    width: 18px;
+    height: 18px;
+}
+.greySpanSecond{
+    color: #999;
+    font-size: 24px;
+}
+.littlewGreyText{
+    color: #808080;
+    font-size: 12px;
+}
+.greyTextT{
+    color: #666;
+    margin-bottom: 4px;
+    font-size: 14px;
+}
+.timeNamess{
+    width: 60px;
+    text-align: center;
+    color: #999;
+    font-size: 10px;
+}
+.blackTimeText{
+    text-align: center;
+    width: 60px;
+    color: #1A1A1A;
+}
+.twoDotss{
+    color: #808080;
+}
+
+.rightSide{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 788px;
+}
+.hotDealCardsMainWrapper{
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+    margin-bottom: 60px;
+}
+.secondPageMainWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.secondPageMainDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1320px;
+}
+.banner{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.feaaturedProductsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 60px;
 }
