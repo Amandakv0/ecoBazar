@@ -678,3 +678,114 @@ a{
     width: 100%;
     margin-bottom: 60px;
 }
+.latestNewsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 60px;
+}
+.newsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 24px;
+}
+.newsDivs{
+    display: flex;
+    width: 100%;
+    max-width: 424px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.newsTextsDiv{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+a:hover{
+    color: purple;
+}
+.textsDivsWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+}
+.newsIconsRowDiv{
+    display: flex;
+    gap: 16px;
+}
+.icons{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.newsIconsTexts{
+    color: #4D4D4D;
+    font-size: 14px;
+}
+.by{
+    color: #808080;
+}
+.greenNewsText{
+    color: #2C742F;
+    font-size: 18px;
+}
+.readMoreDiv{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.greenTexttt{
+    color: #00B207;
+    font-size: 16px;
+    font-weight: 600;
+}
+.newsArrow{
+    width: 15px;
+    height: 13px;
+}
+.blackNewsText{
+    color: #1A1A1A;
+    font-size: 18px;
+}
+
+.testimonialsMainWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2F2;
+}
+.testimonialsMainDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+    flex-direction: column;
+    margin-top: 64px;
+    gap: 35px;
+    margin-bottom: 60px;
+}
+.testimonialHEeaderDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.testimonialsDiv{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.testimonialDivs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 424px;
+    flex-wrap: wrap;
+    padding: 24px;
+}
