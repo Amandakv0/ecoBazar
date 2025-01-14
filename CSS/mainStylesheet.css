@@ -698,6 +698,12 @@ a{
     max-width: 424px;
     flex-wrap: wrap;
     flex-direction: column;
+    border-radius: 0px 0px 8px 8px;
+    border: 1px solid #E6E6E6;
+    background-color: #FFF;
+}
+.first{
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.08);
 }
 .newsTextsDiv{
     display: flex;
@@ -784,8 +790,258 @@ a:hover{
 .testimonialDivs{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     width: 100%;
     max-width: 424px;
     flex-wrap: wrap;
+    border-radius: 8px;
+    background-color: #FFF;
     padding: 24px;
+}
+.arrowsDiv{
+    display: flex;
+    gap: 12px;
+}
+.arrowButtons{
+    width: 45px;
+    height: 45px;
+}
+.vector{
+    margin-bottom: 16px;
+}
+.testimonialsText{
+    font-size: 14px;
+    color: #4D4D4D;
+    margin-bottom: 24px;
+}
+.testimonialsAvatarDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatarDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.avatarTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.name{
+    font-size: 16px;
+    color: #1A1A1A;
+    font-weight: 500;
+}
+.job{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+}
+.socialsMainWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.socialsDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+}
+.logosDiv{
+    padding: 60px 0px;
+}
+.center{
+    text-align: center;
+}
+.imagesSocial{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imagesDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.sibscirbeDivWrapper{
+    display: flex;
+    width: 100%;
+    background-color: #F7F7F7;
+    justify-content: center;
+}
+.subscirbeDiv{
+    margin: 55px 0px;
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+    align-items: center;
+    justify-content: space-between;
+}
+.subscribeTextsDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 100%;
+    max-width: 445px;
+}
+.subscriebeHeader{
+    color: #1A1A1A;
+    font-size: 24px;
+    font-weight: 600;
+}
+.subscribeGreyText{
+    color: #999;
+    font-size: 14px;
+}
+.subsciribeButton{
+    display: flex;
+    padding: 16px 40px;
+    border: none;
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 43px;
+    margin-left: -80px;
+    background-color: #00B207;
+}
+.emailForm{
+    display: flex;
+    padding: 14px 24px;
+    border-radius: 46px;
+    width: 400px;
+    border: 1px solid #E6E6E6;
+    background-color: #FFF;
+}
+::placeholder{
+    color: #808080;
+    font-size: 16px;
+}
+.subscribeFormDiv{
+    display: flex;
+}
+
+.fomrs{
+    display: flex;
+}
+
+.subscribeIconsDiv{
+    display: flex;
+    gap: 8px;
+}
+
+.footerDivWrapper{
+    display: flex;
+    background-color: #1A1A1A;
+    width: 100%;
+    justify-content: center;
+    padding: 60px 0px 0px 0px;
+}
+.footerDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.footerMainDiv{
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+    flex-direction: column;
+    gap: 60px;
+}
+.footerLastDiv{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px 0px;
+    border-top: 2px solid #808080;
+}
+.footerLastText{
+    color: #808080;
+    font-size: 14px;
+}
+.payingMethodsIConsDiv{
+    display: flex;
+    gap: 6px;
+}
+.securePaymentDiv{
+    width: 65px;
+    border-radius: 5.294px;
+    border: 1px solid #333;
+    background-color: #1A1A1A;
+    display: flex;
+    flex-direction: column;
+}
+.lockDiv{
+    display: flex;
+    padding: 4px 5px;
+    align-items: center;
+}
+.secure{
+    color: #FFF;
+    font-size: 11px;
+}
+.payment{
+    color: #FFF;
+    margin-left: 5px;
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.firstFooterCOlumnDiv{
+    display: flex;
+    width: 336px;
+    flex-direction: column;
+    gap: 18px;
+}
+.witeNUmbersText{
+    color: #FFF;
+    font-size: 14px;
+    margin-top: 24px;
+}
+.numbers{
+    display: flex;
+    gap: 16px;    
+}
+.subscribeGreyText{
+    margin-top: 24px;
+}
+.logoText{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+}
+.footerLogoDiv{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.logoo{
+    width: 32px;
+    height: 32px;
+}
+.numbersFirstDiv{
+    border-bottom: 1px solid #20B526;
+    padding: 2px;
+}
+.footerColumnDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 95px;
+}
+.footerDivsHeader{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.footerTexts{
+    color: #999;
+    font-size: 14px;
+}
+.footerwhiteText{
+    color: #FFF;
+    font-size: 14px;
 }
